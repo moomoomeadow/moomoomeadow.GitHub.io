@@ -28,6 +28,22 @@
       background-color: #f44336;
     }
 
+    #btn4{
+      background-color: mediumslateblue;  
+    }
+
+    #btn8{
+      background-color: darkolivegreen;
+    }
+
+    #btn12{
+      background-color: cornsilk;
+    }
+
+    #btn100{
+      background-color: lightseagreen;
+    }
+
     button:hover {
       opacity: 0.8;
     }
@@ -39,6 +55,10 @@
     <button id="btn6">D6</button>
     <button id="btn10">D10</button>
     <button id="btn20">D20</button>
+    <button id="btn4">D4</button>
+    <button id="btn8">D8</button>
+    <button id="btn12">D12</button>
+    <button id="btn100">D100</button>
   </div>
 
   <hr>
@@ -68,6 +88,22 @@
     btn20.onclick = function(){
       showRandomInt(1, 20);
     };
+
+    btn4.onclick = function(){
+      showRandomInt(1,4);
+    }
+
+    btn8.onclick = function(){
+      showRandomInt(1,8);
+    }
+
+    btn12.onclick = function(){
+      showRandomInt(1,12);
+    }
+
+    btn100.onclick = function(){
+      showRandomInt(1,100);
+    }
   </script>
 </body>
 </html>
